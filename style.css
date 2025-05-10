@@ -71,6 +71,8 @@ section.allElems{
     font-size: 20px;
     border-radius: 10px;
     transition: all ease 0.5s ;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .elem img{
     height: 100%;
@@ -103,7 +105,11 @@ section.allElems{
   background-color: crimson;
   border-radius: 10px;
   border: none;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
-  padding: 10px 11px;
+  padding: 15px 22px;
+  cursor: pointer;
+}
+.back:active{
+    scale: 0.97;
 }
